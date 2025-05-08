@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, TabContainer, TabContent,Row,Col,Nav,Tab } from 'react-bootstrap'
+import { Container, TabContainer, TabContent, Row, Col, Nav, Tab } from 'react-bootstrap'
 import ProjectCard from './ProjectCard'
 import ColorSharp2 from './img/color-sharp2.png'
 import projImg1 from './img/project-img1.png'
