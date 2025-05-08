@@ -16,17 +16,16 @@ function Footer() {
                 <Container>
                     <Row className="align-item-center">
                       
-                        <Col sm={6}>
+                        <Col sm={6} className='log'>
                             <img src={logo} alt='Logo' />
                         </Col>
-                        <Col sm={4} className='text-center text-sm-end'>
-                            <div>
+                        <Col sm={3} className='Col'>
+                            <div className=''>
                                 <a href=''><img src={Navbaricons1} /></a>
                                 <a href=''><img src={Navbaricons2} /></a>
                                 <a href=''><img src={Navbaricons3} /></a>
                             </div>
                             <p>&copy; {new Date().getFullYear()}. All rights reserved. Built with ❤️ by Akash Kumar. MERN Stack Developer.</p>
-
                         </Col>
                     </Row>
                 </Container>

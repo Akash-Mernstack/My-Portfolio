@@ -626,13 +626,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
-.footer img {
-  width: 26%;
+.footer {
+  padding: 40px 0;
+  background-color: #121212; /* ya aapka footer ka background */
 }
+
+.footer img {
+  width: 100%; /* General image width */
+  max-width: 120px; /* Logo ka size fix kar diya */
+}
+
+.footer a img {
+  width: 24px; /* Social icons ka size fix */
+  margin: 0 8px; /* Icons ke beech gap */
+}
+
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+  text-align: left; /* Ye line important hai */
+}
+
+.align-item-center {
+  text-align: left;
+  margin-top: 10px;
+  gap: 320px;
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+}
+.Col{
+  text-align: center;
+  column-gap:25px;
 }

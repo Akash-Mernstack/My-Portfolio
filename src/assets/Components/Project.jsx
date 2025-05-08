@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, TabContainer, TabContent, Row, Col, Nav, Tab } from 'react-bootstrap'
+import { Container, Tab, Row, Col, Nav,TabContainer } from 'react-bootstrap'
+
 import ProjectCard from './ProjectCard'
 import ColorSharp2 from './img/color-sharp2.png'
 import projImg1 from './img/project-img1.png'
@@ -8,7 +9,7 @@ import projImg3 from './img/project-img3.png'
 import TrackVisibility from 'react-on-screen'
 
 
-function Projects() {
+function Project() {
     const Projects = [{
         title: "Business Startup",
         description: "Design & Development",
@@ -75,6 +76,5 @@ function Projects() {
         </div>
     )
 }
-
-export default Projects
+export default Project
 
