@@ -5,7 +5,7 @@ import ColorSharp2 from './img/color-sharp2.png'
 import projImg1 from './img/project-img1.png'
 import projImg2 from './img/project-img2.png'
 import projImg3 from './img/project-img3.png'
-
+import TrackVisibility from 'react-on-screen'
 
 
 function Projects() {
@@ -29,8 +29,14 @@ function Projects() {
                 <Container>
                     <Row>
                         <Col>
-                            <h2>Projects</h2>
-                            <p>lorem 30</p>
+                            <TrackVisibility>
+                                {({ isVisible }) => (
+                                    <div className={isVisible ? 'animate__animated animate__bounce' : ''}>
+                                        <h2>Projects</h2>
+                                        <p>lorem 30</p>
+                                    </div>
+                                )}
+                            </TrackVisibility>
                             <TabContainer id='project-tabs' >
                                 <Nav variant="pills" defaultActiveKey='/home'>
                                     <Nav.Item>
