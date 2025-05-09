@@ -3,24 +3,24 @@ import { Container, Tab, Row, Col, Nav, } from 'react-bootstrap'
 
 import ProjectCard from './ProjectCard'
 import ColorSharp2 from './img/color-sharp2.png'
-import projImg1 from './img/weatherpro.jpg'
-import projImg2 from './img/yeay11lq.png'
-import projImg3 from './img/project-img3.png'
+import projImg1 from './img/weatherapp.png'
+import projImg2 from './img/todon.png'
+import projImg3 from './img/portfolio.png'
 import TrackVisibility from 'react-on-screen'
 
 
 function Project() {
     const Projects = [{
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Weather App",
+        description: "Weather Aap: Get instant real-time weather updates and forecasts for anywhere in the world. See current conditions, detailed hourly/daily predictions, crucial rain alerts, and more in an easy-to-use app.",
         imgUrl: projImg1,
     }, {
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Todo-App",
+        description: "Boost your productivity with Todo Aap. Create, manage, and complete your tasks efficiently with reminders and progress tracking.",
         imgUrl: projImg2,
     }, {
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Portfolio-App",
+        description: "Explore my portfolio to see my work in full-stack web development with a focus on the MERN stack. I'm a MERN stack developer passionate about creating seamless and user-centric web applications and dedicated to delivering impactful and scalable solutions..",
         imgUrl: projImg3,
     }]
 
@@ -33,8 +33,8 @@ function Project() {
                             <TrackVisibility>
                                 {({ isVisible }) => (
                                     <div className={isVisible ? 'animate__animated animate__bounce' : ''}>
-                                        <h2>Projects</h2>
-                                        <p>lorem 30</p>
+                                        <h2>My Projects</h2>
+                                        <p>i have worked on several projects with Continuous Learning and updateing my skills</p>
                                     </div>
                                 )}
                             </TrackVisibility>
