@@ -3,8 +3,8 @@ import { Container, Tab, Row, Col, Nav, } from 'react-bootstrap'
 
 import ProjectCard from './ProjectCard'
 import ColorSharp2 from './img/color-sharp2.png'
-import projImg1 from './img/project-img1.png'
-import projImg2 from './img/project-img2.png'
+import projImg1 from './img/weatherpro.jpg'
+import projImg2 from './img/yeay11lq.png'
 import projImg3 from './img/project-img3.png'
 import TrackVisibility from 'react-on-screen'
 
@@ -38,7 +38,7 @@ function Project() {
                                     </div>
                                 )}
                             </TrackVisibility>
-                            <Tab.Container id='project-tabs' defaultActiveKey="first"> 
+                            <Tab.Container id='project-tabs' defaultActiveKey="first">
                                 <Nav variant="pills" >
                                     <Nav.Item>
                                         <Nav.Link eventKey="first">Tab 1</Nav.Link>

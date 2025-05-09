@@ -40,24 +40,61 @@ function Skills() {
                                 <h2>
                                     Skills
                                 </h2>
-                                <p>As a passionate and skilled MERN Stack Developer, I specialize in building dynamic and scalable web applications using MongoDB for efficient NoSQL database management, Express.js for server-side development, React.js for creating responsive user interfaces, and Node.js for backend programming. My expertise includes designing RESTful APIs, implementing authentication using JWT and OAuth, and managing application state with Redux. I am well-versed in GraphQL for optimized data queries, WebSockets for real-time communication, and Docker for containerized deployments. With a strong grasp of CI/CD pipelines, I streamline development workflows and enhance application performance. Over the years, I have developed various projects, including e-commerce platforms, social media applications, and task management tools, demonstrating my ability to create user-friendly and high-performing web solutions. My commitment to learning and adapting to new technologies enables me to stay ahead in the ever-evolving field of web development.</p>
+                                <p>
+                                    <strong>HTML</strong> – Structure of web pages <br />
+                                    <strong>CSS/TailwindCSS</strong> – Styling and layout of web pages <br />
+                                    <strong>JavaScript</strong> – Client-side interactivity and backend logic <br />
+                                    <strong>React.js</strong> – UI development with component-based architecture and state management (with Redux) <br />
+                                    <strong>Git/GitHub</strong> – Version control and collaboration <br />
+                                    <strong>Node.js</strong> – Backend runtime environment for executing JavaScript on the server <br />
+                                    <strong>Express.js</strong> – RESTful APIs & middleware for building server-side logic <br />
+                                    <strong>MongoDB/SQL</strong> – NoSQL (MongoDB) & SQL (Relational database) data modeling <br />
+                                    <strong>Data Fetching with Axios/fetch API</strong> – Efficient data fetching and querying of APIs <br />
+                                    <strong>Docker</strong> – Containerized deployment for consistent environments <br />
+                                    <strong>CI/CD</strong> – Automated pipelines for Continuous Integration and Continuous Deployment <br />
+                                </p>
+
                                 <Carousel responsive={responsive} infinite={true} className='skills-slider' >
+
                                     <div className='item'>
                                         <img src={meter} alt='Image' />
-                                        <h5> Web Developer </h5>
+                                        <h5> HTML</h5>
                                     </div>
                                     <div className='item'>
                                         <img src={meter2} alt='Image' />
-                                        <h5> Brand Identity</h5>
-                                    </div>
-                                    <div className='item'>
-                                        <img src={meter3} alt='Image' />
-                                        <h5> Logo Design</h5>
+                                        <h5> CSS/TAILWIND  CSS</h5>
                                     </div>
                                     <div className='item'>
                                         <img src={meter} alt='Image' />
-                                        <h5> Logo Design</h5>
+                                        <h5> JAVASCRIPT</h5>
                                     </div>
+                                    <div className='item'>
+                                        <img src={meter} alt='Image' />
+                                        <h5> REACT.JS(with Redux) </h5>
+                                    </div>
+                                    <div className='item'>
+                                        <img src={meter3} alt='Image' />
+                                        <h5> GIT/GITHUB </h5>
+                                    </div>
+                                    <div className='item'>
+                                        <img src={meter3} alt='Image' />
+                                        <h5> NODE.JS </h5>
+                                    </div>
+                                    <div className='item'>
+                                        <img src={meter} alt='Image' />
+                                        <h5> EXPRESS.JS </h5>
+                                    </div>
+
+                                    <div className='item'>
+                                        <img src={meter} alt='Image' />
+                                        <h5>MONGODB/SQL,DB </h5>
+                                    </div>
+                                    <div className='item'>
+                                        <img src={meter} alt='Image' />
+                                        <h5>DOCKER </h5>
+                                    </div>
+
+
                                 </Carousel>
                             </div>
                         </Col>

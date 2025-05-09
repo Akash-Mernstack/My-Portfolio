@@ -8,7 +8,7 @@ function ProjectCard({ title, description, imgUrl }) {
                 <img src={imgUrl} alt={title} />
                 <div className='proj-txtx'>
                     <h4>{title}</h4>
-                    <span>{description}</span>
+                    <p>{description}</p>
                 </div>
             </div>
         </Col>
