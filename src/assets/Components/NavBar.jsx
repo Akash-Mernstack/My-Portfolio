@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 import logo from './img/logo.svg'
 import Navbaricons1 from './img/nav-icon1.svg';
-import Navbaricons3 from './img/nav-icon3.svg';
+//import Navbaricons3 from './img/nav-icon3.svg';
 
 
 import React from 'react'
@@ -60,7 +60,15 @@ function NavBar() {
                                     />
                                 </a>
 
-                                <a href='#'><img src={Navbaricons3} alt="icon3" /></a>
+                                <a href="mailto:akv45446@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+                                        alt="Gmail Icon"
+                                        className="gmail"
+                                    />
+                                </a>
+
+
                                 <a href="tel:+917466030826   " target="_blank" rel="noopener noreferrer">
                                     <img
                                         src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
