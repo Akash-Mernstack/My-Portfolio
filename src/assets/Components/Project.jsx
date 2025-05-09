@@ -34,7 +34,7 @@ function Project() {
                                 {({ isVisible }) => (
                                     <div className={isVisible ? 'animate__animated animate__bounce' : ''}>
                                         <h2>My Projects</h2>
-                                        <p>i have worked on several projects with Continuous Learning and updateing my skills</p>
+                                        <p>I have worked on several projects while continuously learning and updating my skills</p>
                                     </div>
                                 )}
                             </TrackVisibility>
