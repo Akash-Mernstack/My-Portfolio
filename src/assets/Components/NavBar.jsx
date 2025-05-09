@@ -3,7 +3,6 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 import logo from './img/logo.svg'
 import Navbaricons1 from './img/nav-icon1.svg';
-import Navbaricons2 from './img/nav-icon2.svg';
 import Navbaricons3 from './img/nav-icon3.svg';
 
 
@@ -43,16 +42,44 @@ function NavBar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                            <Nav.Link href="#home" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}> skills</Nav.Link>
-                            <Nav.Link href="#skills" className={activeLink === "project" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('project')} > Project</Nav.Link>
+
+
+                            <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}> skills</Nav.Link>
+                            <Nav.Link href="#project" className={activeLink === "project" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('project')} > Project</Nav.Link>
 
                         </Nav>
                         <span className='navbar-text'>
                             <div className='social-icon'>
 
                                 <a href='#'><img src={Navbaricons1} alt="icon1" /></a>
-                                <a href='#'><img src={Navbaricons2} alt="icon2" /></a>
+                                <a href="https://github.com/Akash-Mernstack" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
+                                        alt="GitHub Icon"
+                                        className="github-icon"
+                                    />
+                                </a>
+
                                 <a href='#'><img src={Navbaricons3} alt="icon3" /></a>
+                                <a href="tel:+917466030826   " target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                                        alt="Phone Icon"
+                                        className="github-icon"
+                                    />
+                                </a>
+                                <a
+                                    href="https://wa.me/919999999999"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                                        alt="WhatsApp Icon"
+                                        className="github-icon"
+                                    />
+                                </a>
+
 
                             </div>
                             <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span> </button>
