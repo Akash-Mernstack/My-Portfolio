@@ -322,7 +322,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
 }
-.item{
+.item {
   size: 10px;
 }
 .skill-bx {
@@ -456,7 +456,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   top: 65%;
   left: 50%;
-  
+
   transform: translate(-5%, 10%);
   transition: 0.5s ease-in-out;
 
@@ -684,5 +684,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 30px;
   height: 18px;
   filter: invert(100%); /* if icon is dark and background is dark */
+  color: #f1502f;
+}
+.github-icon1 {
+  width: 30px;
+  height: 25px;
+  filter: invert(100%); /* if icon is dark and background is dark */
+  color: #f1502f;
+}
+.gmail {
+  width: 30px;
+  height: 18px; /* if icon is dark and background is dark */
+  color: #f1502f;
+}
+.linked {
+  width: 30px;
+  height: 18px; /* if icon is dark and background is dark */
   color: #f1502f;
 }

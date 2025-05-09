@@ -3,9 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 import logo from './img/logo.svg'
 import Navbaricons1 from './img/nav-icon1.svg';
-import Navbaricons2 from './img/nav-icon2.svg';
-import Navbaricons3 from './img/nav-icon3.svg';
-
+//import Navbaricons2 from './img/nav-icon2.svg';
+//import Navbaricons3 from './img/nav-icon3.svg';
+import insta from './img/insta.jpg'
 
 
 
@@ -23,7 +23,9 @@ function Footer() {
                             <span className='navbar-text'>
                                 <div className='social-icon'>
 
-                                    <a href='#'><img src={Navbaricons1} alt="icon1" /></a>
+                                    <a href='#'><img src={Navbaricons1} alt="icon1"
+                                        className='linked'
+                                    /></a>
                                     <a href="https://github.com/Akash-Mernstack" target="_blank" rel="noopener noreferrer">
                                         <img
                                             src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
@@ -53,7 +55,7 @@ function Footer() {
                                         rel="noopener noreferrer"
                                     >
                                         <img
-                                            src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                                            src={insta}
                                             alt="WhatsApp Icon"
                                             className="github-icon"
                                         />

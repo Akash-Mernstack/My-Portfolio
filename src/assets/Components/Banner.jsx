@@ -60,9 +60,10 @@ function Banner() {
                                     <p>
                                         I am a passionate MERN stack developer with experience in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I enjoy turning complex problems into clean, scalable solutions.
                                     </p>
-                                    <button onClick={() => console.log('connect')}>
+                                    <a href='tel:7466030826'>  <button onClick={() => console.log('connect')}>
                                         Let's connect <ArrowRightCircle size={25} />
                                     </button>
+                                    </a>
                                 </div>
                             )}
                         </TrackVisibility>
