@@ -23,7 +23,7 @@ function Footer() {
                             <span className='navbar-text'>
                                 <div className='social-icon'>
 
-                                    <a href='#'><img src={Navbaricons1} alt="icon1"
+                                    <a href='https://www.linkedin.com/in/akash-kumar-7a51b0321'><img src={Navbaricons1} alt="icon1"
                                         className='linked'
                                     /></a>
                                     <a href="https://github.com/Akash-Mernstack" target="_blank" rel="noopener noreferrer">
@@ -50,7 +50,7 @@ function Footer() {
                                         />
                                     </a>
                                     <a
-                                        href="https://wa.me/919999999999"
+                                        href="https://www.instagram.com/its_arnik.kumar"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

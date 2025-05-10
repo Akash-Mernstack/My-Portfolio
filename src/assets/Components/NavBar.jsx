@@ -51,7 +51,7 @@ function NavBar() {
                         <span className='navbar-text'>
                             <div className='social-icon'>
 
-                                <a href='#'><img src={Navbaricons1} alt="icon1" /></a>
+                                <a href='https://www.linkedin.com/in/akash-kumar-7a51b0321'><img src={Navbaricons1} alt="icon1" /></a>
                                 <a href="https://github.com/Akash-Mernstack" target="_blank" rel="noopener noreferrer">
                                     <img
                                         src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg"
@@ -77,7 +77,7 @@ function NavBar() {
                                     />
                                 </a>
                                 <a
-                                    href="https://wa.me/919999999999"
+                                    href="https://wa.me/917466030826"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -91,7 +91,7 @@ function NavBar() {
 
                             </div>
                             <a href='tel:7466030826'>
-                            <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span> </button>
+                                <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span> </button>
                             </a>
                         </span>
                     </Navbar.Collapse>
