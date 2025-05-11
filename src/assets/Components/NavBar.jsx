@@ -35,7 +35,8 @@ function NavBar() {
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img src={logo} className='logoname' />
+                        <img src={logo} className='lg-logoname' />
+
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" ><span className='navbar-toggler-icon'></span>
                     </Navbar.Toggle>
