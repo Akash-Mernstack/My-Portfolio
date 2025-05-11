@@ -7,9 +7,6 @@ import Project from './assets/Components/Project';
 import Contact from './assets/Components/Contact';
 import Footer from './assets/Components/Footer';
 
-
-
-
 function App() {
   return (
     <div>
