@@ -49,14 +49,18 @@ function Banner() {
             <Container>
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <TrackVisibility>
+                        <TrackVisibility className='banner-center'>
                             {({ isVisible }) => (
                                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                                     <span className='tagline'>Welcome to my Portfolio</span>
-                                    <h1>
-                                        {`Hi, I'm Akash Kumar `}
+                                    <h1 className='big-name'>
+                                        {`Hi, I'm Akash Kumar `} <br />
                                         <span className='wrap'>{text}<span className="cursor">|</span></span>
                                     </h1>
+                                    <h3 className='sm-name'>
+                                        {`Hi, I'm Akash Kumar `} <br />
+                                        <span className='wrap'>{text}<span className="cursor">|</span></span>
+                                    </h3>
                                     <p>
                                         I am a passionate MERN stack developer with experience in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I enjoy turning complex problems into clean, scalable solutions.
                                     </p>

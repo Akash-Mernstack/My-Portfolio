@@ -76,7 +76,7 @@ function Contact() {
                                         </input>
                                     </Col>
                                     <Col>
-                                        <textarea rows='6' value={fromDetails.message} placeholder='Message' onChange={(e) => onFormUpdate('message', e.target.value)}>
+                                        <textarea rows='2' value={fromDetails.message} placeholder='Message' onChange={(e) => onFormUpdate('message', e.target.value)}>
                                         </textarea>
                                         <button type='submit'><span>{buttonText}</span></button>
                                         {

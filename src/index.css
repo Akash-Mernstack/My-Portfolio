@@ -79,7 +79,22 @@ select:focus {
   outline: none;
 }
 
-@media (min-width: 1700px) {
+@media (max-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+@media (max-width: 800px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+  body {
+    align-items: center;
+  }
+}
+@media (max-width: 1700px) {
   main .container {
     max-width: 100%;
     padding: 0 150px;
@@ -252,6 +267,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#home {
+  transform: translateY(-70px);
+}
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -274,6 +293,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
+.banner h3 {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .banner h1 {
+    display: none;
+  }
+  .banner h3 {
+    display: block;
+    text-align: center;
+  }
+  .banner-center {
+    text-align: center;
+  }
+}
+/* Initially, hide the extra content */
+.Projects-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style for the button */
+.Projects-description {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .banner p {
   color: #b8b8b8;
   font-size: 18px;
@@ -337,7 +388,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
 }
 .skill p {
-  color: #b8b8b8;
+  color: #fefefa;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
