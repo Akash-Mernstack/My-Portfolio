@@ -308,21 +308,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner-center {
     text-align: center;
   }
-}
-/* Initially, hide the extra content */
-.Projects-description {
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* Show only 3 lines */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Style for the button */
-.Projects-description {
-  color: blue;
-  cursor: pointer;
-  text-decoration: underline;
+  .readbut {
+    margin: 0 0 80px 0;
+  }
 }
 
 .banner p {
@@ -332,6 +320,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
 }
+.readbut {
+  color: #fefefa;
+}
+
 .banner button {
   color: #fff;
   font-weight: 700;

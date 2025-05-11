@@ -1,5 +1,8 @@
 import React from 'react'
 import { Container, Tab, Row, Col, Nav, } from 'react-bootstrap'
+import ReadMore from './ReadMore'
+
+
 
 import ProjectCard from './ProjectCard'
 import ColorSharp2 from './img/color-sharp2.png'
@@ -65,8 +68,7 @@ function Project() {
                                             }
                                         </Row>
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="second">lorem </Tab.Pane>
-                                    <Tab.Pane eventKey="third">lorem </Tab.Pane>
+                                  
                                 </Tab.Content>
                             </Tab.Container>
                         </Col>
