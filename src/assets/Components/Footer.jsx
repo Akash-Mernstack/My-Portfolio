@@ -15,11 +15,11 @@ function Footer() {
             <footer className='footer'>
                 <Container>
                     <Row className="align-item-center">
-                        <Col sm={6} className='log'>
-                            <img src={logo} alt='Logo' />
+                        <Col sm={6} >
+                            <img src={logo} alt='Logo' className='log' />
                         </Col>
                         <Col sm={3} className='Col'>
-                        <h1> Contact Me</h1>
+                            <h1> Contact Me</h1>
                             <span className='navbar-text'>
                                 <div className='social-icon'>
 

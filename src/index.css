@@ -763,6 +763,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: center;
   }
 }
+@media (max-width: 800px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+  .log {
+    height: 90px;
+    width: 0px;
+    margin-top: 0;
+  }
+}
 .Col {
   text-align: center;
   column-gap: 25px;
@@ -821,6 +835,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: block;
     margin: 0 auto;
   }
+  .log {
+    height: 80px;
+    width: 80px;
+  }
 }
 
 /* Small mobile: screen ≤ 480px */
@@ -838,8 +856,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: auto;
   margin-right: 0;
 }
-.log{
-  height: 150px;
-  width: 150px;
-  margin-top: -50px;
+.log {
+  height: 220;
+  width: 220px;
+  margin-top: -45px;
 }
