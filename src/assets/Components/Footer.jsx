@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-import logo from './img/logo.svg'
+import logo from './img/logo-removebg-preview.png'
 import Navbaricons1 from './img/nav-icon1.svg';
 //import Navbaricons2 from './img/nav-icon2.svg';
 //import Navbaricons3 from './img/nav-icon3.svg';
@@ -15,11 +15,11 @@ function Footer() {
             <footer className='footer'>
                 <Container>
                     <Row className="align-item-center">
-
                         <Col sm={6} className='log'>
                             <img src={logo} alt='Logo' />
                         </Col>
                         <Col sm={3} className='Col'>
+                        <h1> Contact Me</h1>
                             <span className='navbar-text'>
                                 <div className='social-icon'>
 
