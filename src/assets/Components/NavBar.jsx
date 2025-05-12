@@ -91,6 +91,7 @@ function NavBar() {
 
 
                             </div>
+
                             <a href='tel:7466030826'>
                                 <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span> </button>
                             </a>

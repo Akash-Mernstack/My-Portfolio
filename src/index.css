@@ -132,6 +132,41 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
+
+@media (max-width: 800px) {
+  /* Main navigation items: Home, Skills in a row */
+  nav.navbar .navbar-nav {
+    display: flex;
+    flex-direction: column; /* Items ko horizontal row mein rakhna */
+    flex-wrap: wrap; /* Agar space nahi ho, toh next line mein wrap ho sakte hain */
+    justify-content: space-evenly; /* Items ke beech equal space */
+    transform: translateX(340px);
+    background: transparent;
+    position: fixed;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px;
+    padding: 8px 15px;
+    opacity: 1;
+    letter-spacing: 0.5px;
+  }
+
+  nav.navbar .navbar-nav .social-icon {
+    display: flex;
+    flex-direction: row; /* Stack links vertically on small screens */
+    margin-top: -150px;
+  }
+  .social-icon {
+    margin-right: 45px;
+    transform: translateX(68px);
+    justify-content: space-evenly;
+  }
+  .vvd {
+    display: none;
+  }
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
