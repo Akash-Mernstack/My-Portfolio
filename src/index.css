@@ -776,6 +776,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0px;
     margin-top: 0;
   }
+  .item h5 {
+    font-size: 10px;
+    size: 5px;
+  }
 }
 .Col {
   text-align: center;

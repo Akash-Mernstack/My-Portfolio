@@ -70,7 +70,7 @@ function Skills() {
                                     </div>
                                     <div className='item'>
                                         <img src={meter} alt='Image' />
-                                        <h5> REACT.JS(with Redux) </h5>
+                                        <h5> REACT.JS <br />(with Redux) </h5>
                                     </div>
                                     <div className='item'>
                                         <img src={meter3} alt='Image' />
