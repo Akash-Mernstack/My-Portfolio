@@ -140,7 +140,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     flex-direction: column; /* Items ko horizontal row mein rakhna */
     flex-wrap: wrap; /* Agar space nahi ho, toh next line mein wrap ho sakte hain */
     justify-content: space-evenly; /* Items ke beech equal space */
-    transform: translateX(340px);
+    transform: translateY(12px);
     background: transparent;
     position: fixed;
   }
@@ -155,11 +155,13 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   nav.navbar .navbar-nav .social-icon {
     display: flex;
     flex-direction: row; /* Stack links vertically on small screens */
-    margin-top: -150px;
+    margin-top: 150px;
   }
   .social-icon {
     margin-right: 45px;
-    transform: translateX(68px);
+    margin-top: -3px;
+    transform: translateX(98px);
+    margin-top: 5px;
     justify-content: space-evenly;
   }
   .vvd {
@@ -410,9 +412,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
 }
+
 .item {
-  size: 10px;
+  size: 10px; /* This doesn't directly affect image size, might be for something else */
 }
+
 .skill-bx {
   background: #151515;
   border-radius: 64px;
@@ -420,10 +424,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 50px;
   margin-top: -60px;
 }
+
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
 }
+
 .skill p {
   color: #fefefa;
   font-size: 18px;
@@ -431,15 +437,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px 0 75px 0;
 }
+
 .skill-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item img {
-  width: 50%;
+
+.item img {
+  width: 30em; /* Changed from 50% to 100px for a fixed size */
+  height: 23em; /* height: 1; was removed and changed to auto */
   margin: 0 auto 15px auto;
 }
+@media (max-width: 800px) {
+  .item img {
+    width: 8em; /* Changed from 50% to 100px for a fixed size */
+    height: 8em; /* height: 1; was removed and changed to auto */
+    margin: 0 auto 15px auto;
+  }
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -838,6 +855,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: center;
     display: block;
     margin: 0 auto;
+    transform: translatey(-60px);
   }
   .log {
     height: 80px;
@@ -848,7 +866,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Small mobile: screen ≤ 480px */
 @media (max-width: 480px) {
   .lg-logoname {
-    font-size: 60px;
+    font-size: 0px;
   }
 }
 
@@ -864,4 +882,73 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 220;
   width: 220px;
   margin-top: -45px;
+}
+/* skills style*/
+/* BODY background for blue hue */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=1600&q=80")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* SKILLS SECTION */
+.skills-section {
+  max-width: 950px;
+  margin: 80px auto;
+  padding: 60px 40px;
+  background: rgba(30, 0, 60, 0.4); /* Slightly more blue transparency */
+  border-radius: 20px;
+  backdrop-filter: blur(8px); /* Subtle blur effect */
+  -webkit-backdrop-filter: blur(8px); /* Subtle blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.2);
+  color: #f5eaff;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Heading */
+.skills-section h2 {
+  text-align: center;
+  font-size: 38px;
+  color: #c084fc; /* Purple color kept */
+  text-shadow: 0 0 4px #a855f7, 0 0 8px #00c3ff; /* Subtle blue shadow + purple */
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* Skills List */
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 700px) {
+  .skills-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.08); /* Light blue transparency for items */
+  border-left: 5px solid #a855f7; /* Purple border */
+  border-radius: 10px;
+  padding: 20px;
+  color: #f3e8ff;
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px #00c3ff, 0 0 25px rgba(168, 85, 247, 0.3); /* Blue glow on hover */
+}
+
+.skills-list li strong {
+  color: #d8b4fe;
 }
