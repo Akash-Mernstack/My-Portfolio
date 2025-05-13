@@ -21,7 +21,7 @@ function Footer() {
                         <Col sm={3} className='Col'>
                             <h1> Contact Me</h1>
                             <span className='navbar-text'>
-                                <div className='social-icon'>
+                                <div className='social-iconf'>
 
                                     <a href='https://www.linkedin.com/in/akash-kumar-7a51b0321'><img src={Navbaricons1} alt="icon1"
                                         className='linked'

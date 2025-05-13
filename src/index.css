@@ -846,8 +846,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 5px;
     transform: translateY(-70px);
   }
-}
 
+}
+  .social-iconf{
+  align-items: center;
+  justify-content: center;
+  transform: translateX(50PX);
+  
+
+
+}
 /* Mobile view: screen ≤ 768px */
 @media (max-width: 768px) {
   .lg-logoname {
@@ -861,6 +869,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 80px;
     width: 80px;
   }
+  .social-iconf{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transform: translateX(100PX);
+}
 }
 
 /* Small mobile: screen ≤ 480px */
