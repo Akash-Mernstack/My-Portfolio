@@ -1,4 +1,4 @@
-import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css'; // CSS bhi import karo
 import NavBar from './assets/Components/NavBar';
 import Banner from './assets/Components/Banner';
