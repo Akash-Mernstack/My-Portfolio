@@ -87,7 +87,7 @@ function Skills() {
 
                                     <div className='item'>
                                         <img src={meter} alt='Image' />
-                                        <h5>MONGODB/SQL,DB </h5>
+                                        <h5>MONGODB <br />SQL,DB </h5>
                                     </div>
                                     <div className='item'>
                                         <img src={meter} alt='Image' />
