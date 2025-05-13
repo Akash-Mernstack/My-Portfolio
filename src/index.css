@@ -873,7 +873,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   justify-content: center;
   display: flex;
-  transform: translateX(100PX);
+  transform: translateX(80px);
 }
 }
 
